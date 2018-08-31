@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Bingo SDM</string>
+    <string name="action_settings">Settings</string>
+    <string name="numeros_sorteados">Números sorteados</string>
+</resources>
