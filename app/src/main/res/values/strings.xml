@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Bingo SDM</string>
     <string name="action_settings">Settings</string>
-    <string name="numeros_sorteados">Números sorteados</string>
+    <string name="numeros_sorteados">Coluna %s - Número %d</string>
+    <string name="clique_no_botao_para_sortear_um_numero">Clique no botão para sortear um número</string>
+    <string name="numero_maximo_atingido">Numero máximo de sorteios atingido!</string>
 </resources>

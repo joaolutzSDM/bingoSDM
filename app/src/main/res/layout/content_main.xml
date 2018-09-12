@@ -8,13 +8,29 @@
     tools:context=".MainActivity"
     tools:showIn="@layout/activity_main">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/txvNumerosSorteadosLabel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="130dp"
-        tools:layout_editor_absoluteY="293dp" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txvNumeroSorteadoLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/clique_no_botao_para_sortear_um_numero" />
+
+            <TextView
+                android:id="@+id/txvNumerosSorteadosTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txvNumeroSorteadoLabel"
+                android:layout_margin="20dp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
 
 </android.support.constraint.ConstraintLayout>

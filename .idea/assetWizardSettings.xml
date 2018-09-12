@@ -45,7 +45,9 @@
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="assetType" value="TEXT" />
+                                      <entry key="assetType" value="IMAGE" />
+                                      <entry key="imageAsset" value="C:\Android\images\536044.png" />
+                                      <entry key="outputName" value="ic_globo_bingo" />
                                       <entry key="theme" value="HOLO_DARK" />
                                     </map>
                                   </option>
